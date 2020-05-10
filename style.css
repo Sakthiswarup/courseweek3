@@ -1,0 +1,157 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family:Arial;
+	color: #FFFFFF;
+}
+
+body {
+	
+	background-color: #7395AE;
+	line-height: 1.8em;
+	font-family: Arial;
+	
+
+}
+
+p {
+	padding: 25px;
+	margin: 0;
+	font-size: 20px;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color:#C2CAD0;
+	width: 100%;
+	height: auto;
+	
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	border: 2px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial;
+	font-weight: bold;
+	
+	font-size:30px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color:#B1A297;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial;
+	font-weight: bold;
+	
+	font-size:30px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color:#B1A297;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Arial; 
+	font-weight: bold;
+	
+	font-size:30px;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #B1A297;
+	color: black;
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color:#B3B6B7;
+  color:black ;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #dfccd3;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #0E0E0E;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.4em;
+}
+footer{
+	background-color: #5D5C61;
+	color:black;
+	text-align: center;
+	height: 110px;
+}
+#footer{
+	padding-top: 50px;
+	font-weight: bolder;
+}
+#menu-button{
+	position: sticky;
+}
